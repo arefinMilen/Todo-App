@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.card
+{
+    background-color: #222;
+    color: white;
+    min-height: 80vh;
+    width: 60%;
+    padding: 1rem;
+    border-radius: 15px;
+    overflow: scroll;
+
+}
+
+.card-title{
+    font-size: 2.5rem;
+    margin-bottom: .6rem;
+    text-align: center;
+
+}
+input{
+    border-radius: .5rem;
+    border: none;
+    width: 78%;
+    padding: 0.5rem;
+}
+.btn
+{
+    border: none;
+    color: white;
+    background-color: orange;
+    border-radius: .5rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    transition: all .7s;
+
+
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+
+}
+
+#todo-button{
+    width: 19%;
+}
+
+.li-style{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #333;
+color: white;
+padding: .5rem;
+border-radius: .6rem;
+margin: 1rem 0;
+transition: all .4s;
+}
+
+.li-style:hover{
+    background-color: #111;
+
+}
+.bg-success{
+    margin : .5 rem 0;
+    padding: .5rem;
+    color:black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+}
+.bg-danger {
+    margin : .5 rem 0;
+    padding: .5rem;
+    color:black;
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
